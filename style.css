@@ -101,6 +101,10 @@ a {
   justify-content: space-between;
 }
 
+.header-logo-img {
+  opacity: 0;
+}
+
 .header-items {
   display: flex;
   align-items: center;
@@ -242,14 +246,15 @@ a {
 
 .s3-title-cont {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom: 1px solid var(--lightborder);
   padding-bottom: 20px;
+  color: var(--green);
 }
 
 .s3-title {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .select {
@@ -262,7 +267,9 @@ a {
 .s3-plant-cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-top: 24px;
+  gap: 15px;
 }
 
 .s3-plant-card {
@@ -270,18 +277,27 @@ a {
 }
 
 .s3-card-img-cont {
-  border: 1px solid var(--green);
-  height: 219px;
-  width: 219px;
+  width: 100%;
   margin-bottom: 16px;
 }
 
 .s3-plant-img {
+  height: 450px;
+  border: solid 1px var(--green);
+  transition: ease-in-out 0.3s;
 
+}
+
+@media  (hover: hover) {
+  .s3-plant-img:hover {
+    transform: scale(1.15);
+  }
 }
 
 .s3-plant-name {
   margin-bottom: 8px;
+  color: var(--green);
+  font-weight: 600;
 }
 
 .s3-plant-price {
@@ -557,9 +573,10 @@ a {
 
   /* section 3 media */
   .s3-plant-cards {
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
   }
+
   /* section 3 media */
 
   /* section 4 media */
