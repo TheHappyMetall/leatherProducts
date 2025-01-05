@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/svg/favico.svg" type="image/x-icon" />
-    <title>Кожаные изделия</title>
+    <title>Лучшее для вас</title>
   </head>
 
   <body>
@@ -14,7 +14,7 @@
         <div class="header">
             <img src="img/svg/header_logo.svg" class="header-logo-img" alt="logo" />
           <div class="header-items">
-            <div class="header-items-svg-wrap">
+            <!-- <div class="header-items-svg-wrap">
               <img
                 src="img/svg/header_search.svg"
                 class="header-item-svg"
@@ -25,10 +25,10 @@
                 class="header-item-svg"
                 alt="shopping cart"
               />
-            </div>
+            </div> -->
             <div class="header-items-autorize">
-              <button class="sign-up light">Sign Up</button>
-              <button class="sign-in green">Sign In</button>
+              <a class="sign-up light" href="#section-3">Товары</a>
+              <a class="sign-in green" href="#section-5">Купить</a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="top-section-main">
-          <h1 class="top-section-main-title">Кожаные изделия</h1>
+          <h1 class="top-section-main-title">Лучшее для вас</h1>
 
           <p class="top-section-main-text">
             Добро пожаловать в мир элегантных кожаных изделий! Здесь вы найдете уникальные аксессуары, которые подчеркнут ваш стиль и индивидуальность.
@@ -128,9 +128,9 @@
     </div>
 
     <div class="wrapper">
-      <div class="section-3">
+      <div class="section-3" id="section-3">
         <div class="s3-title-cont">
-          <h3 class="s3-title">Featured Plants</h3>
+          <h3 class="s3-title">Товары</h3>
           <select name="s3-plants-sort" id="s3-plants-sort" class="select">
             <option value="cheaper-first">Cheaper First</option>
             <option value="beast-first" selected>Best First</option>
@@ -140,45 +140,35 @@
 
         <div class="s3-plant-cards">
           <div class="s3-plant-card">
-            <img src="img/s3-1.png" alt="Kaktus Plants" class="s3-plant-img" />
-            <div class="s3-plant-name">Kaktus Plants</div>
-            <div class="s3-plant-price">IDR 85.000</div>
+            <div class="s3-card-img-cont">
+              <!-- <img src="img/s3-1.png" alt="Товар" class="s3-plant-img" /> -->
+            </div>
+            <div class="s3-plant-name">Наименование товара</div>
+            <div class="s3-plant-price">2 500р</div>
           </div>
 
           <div class="s3-plant-card">
-            <img src="img/s3-2.png" alt="Landak Plants" class="s3-plant-img" />
-            <div class="s3-plant-name">Landak Plants</div>
-            <div class="s3-plant-price">IDR 105.000</div>
+            <div class="s3-card-img-cont">
+              <!-- <img src="img/s3-1.png" alt="Товар" class="s3-plant-img" /> -->
+            </div>
+            <div class="s3-plant-name">Наименование товара</div>
+            <div class="s3-plant-price">2 500р</div>
           </div>
 
           <div class="s3-plant-card">
-            <img
-              src="img/s3-3.png"
-              alt="Kecubung Plants"
-              class="s3-plant-img"
-            />
-            <div class="s3-plant-name">Kecubung Plants</div>
-            <div class="s3-plant-price">IDR 85.000</div>
+            <div class="s3-card-img-cont">
+              <!-- <img src="img/s3-1.png" alt="Товар" class="s3-plant-img" /> -->
+            </div>
+            <div class="s3-plant-name">Наименование товара</div>
+            <div class="s3-plant-price">2 500р</div>
           </div>
 
           <div class="s3-plant-card">
-            <img
-              src="img/s3-4.png"
-              alt="Kecubung Plants"
-              class="s3-plant-img"
-            />
-            <div class="s3-plant-name">Kecubung Plants</div>
-            <div class="s3-plant-price">IDR 85.000</div>
-          </div>
-
-          <div class="s3-plant-card">
-            <img
-              src="img/s3-5.png"
-              alt="Kecubung Plants"
-              class="s3-plant-img"
-            />
-            <div class="s3-plant-name">Kecubung Plants</div>
-            <div class="s3-plant-price">IDR 85.000</div>
+            <div class="s3-card-img-cont">
+              <!-- <img src="img/s3-1.png" alt="Товар" class="s3-plant-img" /> -->
+            </div>
+            <div class="s3-plant-name">Наименование товара</div>
+            <div class="s3-plant-price">2 500р</div>
           </div>
         </div>
       </div>
@@ -214,22 +204,42 @@
     </div>
 
     <div class="wrapper">
-      <div class="section-5">
+
+      
+      <div class="section-5" id="section-5">
         <div class="s5-text">
           <h2 class="s5-text-title">
-            Get your favourites plant on our shop now
+            Контакты          
           </h2>
-          <div class="button-cont">
-            <button class="section-button green">Visit Shop</button>
-          </div>
         </div>
-        <div class="s5-img-cont">
-          <img src="img/s5-img.png" class="s5-img" alt="Plant" />
+        <div class="s5-right-cont">
+          <ul class="s5-ul">
+            <li class="s5-li">
+              <h5 class="s5-ul-title">Email</h5>
+              ezelenina@bk.ru
+            </li>
+
+            <li class="s5-li">
+              <h5 class="s5-ul-title">Номер телефона</h5>
+              <a href="tel:+7 (905) 790-90-94">+7 (905) 790-90-94</a>
+            </li>
+
+            <li class="s5-li">
+              <h5 class="s5-ul-title">Время работы</h5>
+              По будням и выходным с 09:00 до 21:00
+            </li>
+          </ul>
+        </div>
+
+        <div class="button-cont">
+          <a href="https://t.me/elenovov" target="_blank" ><img src="img/svg/telegram.svg" class="s5-link-img" alt="Telegram icon"></a>
+          <a href="https://wa.me/79057909094" target="_blank"><img src="img/svg/whatsapp.svg" class="s5-link-img" alt="Whatsapp icon"></a>
+          <a href="mailto:ezelenina@bk.ru"><img src="img/svg/email.svg" class="s5-link-img" alt="Email icon"></a>
         </div>
       </div>
     </div>
 
-    <div class="footer">
+    <!-- <div class="footer">
       <div class="footer-address-cont">
         <div class="footer-planktu">plantku</div>
         <div class="footer-adress-title">Plantku House</div>
@@ -271,6 +281,6 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
