@@ -278,6 +278,7 @@ a {
   transition: ease-in-out 0.3s;
   background: var(--gray-1);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .s3-card-img-cont {
