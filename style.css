@@ -276,9 +276,10 @@ a {
   text-align: center;
   padding-bottom: 15px;
   transition: ease-in-out 0.3s;
-  background: var(--gray-1);
+  background: #fff;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
+  
 }
 
 .s3-card-img-cont {
